@@ -1,0 +1,14 @@
+
+body {
+    background-color: #ECF5FF;
+}
+.intro{
+    margin-top: 20px;
+}
+logo.img{
+    width:100px;
+    height:100px;
+    border-radius:80%;
+    margin-top: 10px;
+    margin-left: 0px;
+}

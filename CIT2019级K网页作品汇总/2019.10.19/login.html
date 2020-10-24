@@ -1,0 +1,58 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <link href="css/login.css" rel="stylesheet" type="text/css">
+     <title>登录</title>
+
+     <style tape="text/css">
+     *{
+         margin: 0;
+         padding: 0;
+     }
+     /*清除标签，消除间距*/
+     div{
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         margin: -150px 0 0 -150px;
+         width: 300px;
+         height: 300px;
+         background-color: azure;
+     }
+     /*居中*/
+     input{
+         width: 298px;
+         height: 30px;
+         border: 1px solid black;
+         margin-top: 30px;
+     }
+     /*隔开输入框距离*/
+     button{
+         width: 298px;
+         height: 30px;
+         border: 1px solid black;
+         margin-top: 30px;
+         box-sizing: content-box;
+         border-radius: 10px;
+    }
+    /*美观*/
+     </style>
+
+
+</head>
+
+<body>
+    <div>
+        <form action="index.html" method="post" name="myform" onsubmit="return CheckPost();">
+            昵称：<input type="text" id="user" value=""/><br>
+            邮箱：<input type="text" id="email"value=""/><br>
+            密码：<input type="text" id="pwd" value=""/><br>
+            <input type="submit" name="submit" value="登录" />
+        </form>
+    </div>
+</body>
+<script>
+ 
+</script>
+</html>

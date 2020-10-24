@@ -1,0 +1,15 @@
+
+body {
+    background: cadetblue;;
+    margin: 0;
+}
+.adv-wrapper-text{
+    background: rgb(71, 67, 67);
+    color: rgb(233, 202, 202);
+}
+.navbar{
+    background: rgb(66, 58, 58);
+}
+.navbar a{
+    color: blanchedalmond;
+}
